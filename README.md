@@ -3,7 +3,7 @@
 This repository contains a trained artificial neural network which is able to predict elastic-plastic stresses using linear-elastic pseudo stresses follwing the Ramberg and Osgood material law.
 The artificial neural network is embedded in a framework that guarantees that physically reasonable results are obtained even for predictions outside of the training scope of the network. 
 The underlying methodology is based on the analytical notch approximation formulas according to Neuber and Glinka. It exploits characteristics often mentioned in the literature e.g. [^1], namely that the Glinka rule leads to systematic underestimation and the Neuber rule in its extended form to systematic overestimation of the stress state. The results of these formulas are used as a limiter. In addition, the given implementation offers the possibility to switch this limiter to the two limiting cases "linear stress" and "linear strain".
-This piece of software builds up on my Phd thesis [^2] (in german). An overview of the approach without the limiters is shown in [^3]. 
+This piece of software builds up on my PhD thesis [^2] (in german). An overview of the approach without the limiters can be found in [^3]. 
 
 #### Usage
 To predict an elastic-plastic stress state simply use the following function call
