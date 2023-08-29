@@ -13,16 +13,16 @@ To predict an elastic-plastic stress state simply use the following function cal
 ```
 
 ## Parameters: 
-E - Youngs modulus in MPa
-K_ - cyclic hardening coefficient in MPa
-n_ - cyclic hardening exponent
-spagra - relative stress gradient in mm^-1
-h - degree of multiaxiality ( ratio of hydrostatic stress to the von-Mises equivalent stress h = sig_H / sig_v)
-kappa - support potential 
-sigma_e - linear-elastic computed von-Mises equivalent stress in MPa
+E - Youngs modulus in MPa  
+K_ - cyclic hardening coefficient in MPa  
+n_ - cyclic hardening exponent  
+spagra - relative stress gradient in mm^-1  
+h - degree of multiaxiality ( ratio of hydrostatic stress to the von-Mises equivalent stress h = sig_H / sig_v)  
+kappa - support potential   
+sigma_e - linear-elastic computed von-Mises equivalent stress in MPa  
 
 ## Returns
-sigma_KNN - estimation of the elastic-plastic von-Mises stress in MPa
+sigma_KNN - estimation of the elastic-plastic von-Mises stress in MPa  
 
 
 
