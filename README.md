@@ -26,12 +26,12 @@ sigma_KNN - estimation of the elastic-plastic von-Mises stress in MPa
 
 
 
-Authors:  
+##Authors:  
 Ralf Wuthenow  
 Institute for Plant Engineering and Fatigue Analysis  
 Clausthal University of Technology - Germany  
 
-References:  
+##References:  
 [^1]: Ye, D.; Matsuoka, S.; Suzuki, N.; Maeda, Y.: Further investigation of Neuber’s rule and the equivalent strain energy density (ESED) method. In: International journal of fatigue 26.5 (2004), S. 447–455. https://doi.org/10.1016/j.ijfatigue.2003.10.002.  
 [^2]: Wuthenow, R.: Zur Abschätzung elastisch-plastischer Beanspruchungszustände mit analytischen Modellen und Methoden des Maschinellen Lernens. PhD Thesis. Clausthal-University of Technology, Clausthal-Zellerfeld; 2023.   
 [^3]: Burghardt, R.; Wächter, M.; Masendorf, L.; Esderts, A.: Estimation of elastic–plastic notch strains and stresses using artificial neural networks. In: Fatigue & Fracture of Engineering Materials & Structures 44.10 (2021), S. 2718–2735. https://doi.org/10.1111/ffe.13540  
