@@ -7,7 +7,9 @@ The underlying methodology is based on the analytical notch approximation formul
 #### Usage
 To predict an elastic-plastic stress state simply use the following function call
 
+```
 Kerbnaeherung_KNN(E, K_, n_, spagra, h, kappa, sigma_e, randkorrektur, optimized, konservativeskappa)
+```
 
 Authors:  
 Ralf Wuthenow  
