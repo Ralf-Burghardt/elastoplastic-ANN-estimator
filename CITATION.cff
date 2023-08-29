@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Wuthenow"
+  given-names: "Ralf"
+  orcid: "https://orcid.org/0000-0003-1786-1168"
+title: "elastoplastic-ANN-estimator"
+version: 1.0.0
+doi: 10.5281/zenodo.8298161
+date-released: 2023-08-29
+url: "https://github.com/Ralf-Burghardt/elastoplastic-ANN-estimator"
