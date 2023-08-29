@@ -9,11 +9,11 @@ To predict an elastic-plastic stress state simply use the following function cal
 
 Kerbnaeherung_KNN(E, K_, n_, spagra, h, kappa, sigma_e, randkorrektur, optimized, konservativeskappa)
 
-Authors:
-Ralf Wuthenow
-Institute for Plant Engineering and Fatigue Analysis
-Clausthal University of Technology - Germany
+Authors:  
+Ralf Wuthenow  
+Institute for Plant Engineering and Fatigue Analysis  
+Clausthal University of Technology - Germany  
 
-Literature:
+References:  
 [1]   Ye, D.; Matsuoka, S.; Suzuki, N.; Maeda, Y.: Further investigation of Neuber’s rule and the equivalent strain energy density (ESED) method. In: International journal of fatigue 26.5 (2004), S. 447–455. doi: https://doi.org/10.1016/j.ijfatigue.2003.10.002.
 
