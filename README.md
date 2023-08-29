@@ -5,14 +5,14 @@ The artificial neural network is embedded in a framework that guarantees that ph
 The underlying methodology is based on the analytical notch approximation formulas according to Neuber and Glinka. It exploits characteristics often mentioned in the literature e.g. [^1], namely that the Glinka rule leads to systematic underestimation and the Neuber rule in its extended form to systematic overestimation of the stress state. The results of these formulas are used as a limiter. In addition, the given implementation offers the possibility to switch this limiter to the two limiting cases "linear stress" and "linear strain".
 This piece of software builds up on my PhD thesis [^2] (in german). An overview of the approach without the limiters can be found in [^3]. 
 
-#### Usage
+## Usage
 To predict an elastic-plastic stress state simply use the following function call
 
 ```
-[sigma_KNN] = Kerbnaeherung_KNN(E, K_, n_, spagra, h, kappa, sigma_e)
+[sigma_KNN] = perform_stress_prediction(E, K_, n_, spagra, h, kappa, sigma_e)
 ```
 
-## Parameters: 
+#### Parameters: 
 E - Youngs modulus in MPa  
 K_ - cyclic hardening coefficient in MPa  
 n_ - cyclic hardening exponent  
@@ -21,7 +21,7 @@ h - degree of multiaxiality ( ratio of hydrostatic stress to the von-Mises equiv
 kappa - support potential   
 sigma_e - linear-elastic computed von-Mises equivalent stress in MPa  
 
-## Returns
+#### Returns
 sigma_KNN - estimation of the elastic-plastic von-Mises stress in MPa  
 
 
